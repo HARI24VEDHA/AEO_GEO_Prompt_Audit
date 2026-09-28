@@ -1,16 +1,16 @@
-# AEO/GEO Prompt Audit: NxtWave
+# AEO/GEO Prompt Audit
 
 ## Problem Statement
-As students increasingly turn to Artificial Intelligence Answer Engines (like ChatGPT, Perplexity, Gemini, and Google AI Overviews) for advice on colleges and coding programs, it is critical for educational platforms to understand their AI visibility. This experiment measures how often AI engines mention NxtWave, cite its official or third-party properties, and accurately describe its offerings. The goal is to identify gaps in AI Overviews (AEO) and Generative Engine Optimization (GEO) to ensure prospective students receive accurate and helpful information.
+As students increasingly turn to Artificial Intelligence Answer Engines (like ChatGPT, Perplexity, Gemini, and Google AI Overviews) for advice on colleges and coding programs, it is critical for educational platforms to understand their AI visibility. This experiment measures how often AI engines mention the target platform, cite its official or third-party properties, and accurately describe its offerings. The goal is to identify gaps in AI Overviews (AEO) and Generative Engine Optimization (GEO) to ensure prospective students receive accurate and helpful information.
 
 ## Method
 * **Setup:** All queries were run on the same day using a fresh or incognito session to minimize personalization.
 * **Prompting:** The exact wording of each prompt was used, and only the first generated answer was analyzed.
 * **Evaluation Criteria:**
-  * **Mentioned:** Did the engine explicitly name "NxtWave" or "CCBP"?
-  * **Accurate:** Was the description of NxtWave's programs, fees, and outcomes factually correct?
-  * **Official Cited:** Did the engine cite a direct link to `ccbp.in`?
-  * **Third-Party Cited:** Did the engine cite reviews, articles, or other external sites mentioning NxtWave?
+  * **Mentioned:** Did the engine explicitly name the platform or its specific programs?
+  * **Accurate:** Was the description of the platform's programs, fees, and outcomes factually correct?
+  * **Official Cited:** Did the engine cite a direct link to the official website?
+  * **Third-Party Cited:** Did the engine cite reviews, articles, or other external sites mentioning the platform?
 
 ## How to Reproduce
 1. Clone this repository: `git clone <repo-url>`
